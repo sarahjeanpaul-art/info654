@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>My first html page</title>
+    <style>
+        #header,#footer {width: 100%; text-align: center;border-radius:5px; }
+        #header {background:cyan; color:black; border-bottom:5px solid azure;}
+        #footer {clear:left ; background:pink;color:black;border-bottom:5px solid pink;}
+        
+        #leftnav,#centerbody {margin:10px; float:left;}
+        #leftnav {padding-left:10px; border:2px outset green; width:20%; height:180px;}
+        #centerbody {border:2px outset blue; text-align:center; width:70%;height:180px;}
+        
+        .centerred {text-align:center; color:red}
+    </style>
+</head> 
+
+<body>
+<div id="header">
+   <h1>Welcome to my page! This is the header</h1> 
+   <h3>Read more about me below</h3> 
+</div>
+    
+<div id="leftnav">
+    <p>Left Navbar</p>
+    <ul>
+        <li><a href="https://www.pratt.edu">Visit Pratt</a></li>
+        <li><a href="https://www.moma.org">Visit MoMA</a></li>
+        <li><a href="http://www.google.com">Search Google</a></li>
+        <li><a href="http://www.apple.com">Shop Apple</a></li>
+    </ul>
+</div>
+    
+<div id="centerbody">
+    <h2>Heading Level 2</h2>
+    <h2 class="centerred">Another Heading Level 2</h2>
+    <p>Hello world. This is an example of a well structured HTML Page</p>
+    <a class="centerred" href="http://www.pratt.edu">I Love Pratt</a>
+</div>
+
+<div id="footer">
+   <h1>Thanks for visiting my page. This is the footer.</h1> 
+   <h3>Come back soon</h3> 
+</div>
+</body> 
+</html>
