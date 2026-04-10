@@ -110,7 +110,7 @@ Font-size: 750%
 }
 
   .admit img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 .top-left {
@@ -134,4 +134,24 @@ Font-size: 750%
     left: 10px;
     color: white;
     padding: 5px;
+}
+.coll img {
+Max-width: 100%;
+height: auto;
+}
+.fil img {
+max-width: 100%;
+height: auto;
+}
+.cafe img {
+Max-width: 100%;
+height: auto;
+}
+.dame img {
+Max-width: 100%;
+Height: auto;
+}
+.act img {
+Max-width: 100%;
+Height: auto;
 }
